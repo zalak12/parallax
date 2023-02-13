@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('https://i0.wp.com/nenow.in/wp-content/uploads/2022/04/Mahindra_Thar_Photoshoot_At_Perupalem_Beach_West_Godavari_DistrictAPIndia__Djdavid.jpg?fit=1200%2C632&ssl=1');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:blueviolet;font-size:36px">
+    Mahindra Thar
+    <div>The Mahindra Thar is a compact, four-wheel drive, off-road SUV manufactured by Indian automaker Mahindra and Mahindra Ltd.
+    
+      First generation</div>
+</div>
+
+<div class="parallax"></div>
+
+
+</body>
+</html>
